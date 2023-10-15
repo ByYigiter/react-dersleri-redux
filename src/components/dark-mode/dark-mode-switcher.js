@@ -5,8 +5,8 @@ import { setDarkMode } from '../../store/slices/theme-slice'
 import { $t } from '../../helpers/locale-helper'
 
 const DarkModeSwitcher = () => {
-    const darkMode = useSelector((state)=>state.theme.darkMode);  // dark modeu merkezi stateden al
-    const dispatch = useDispatch();
+    const darkMode = useSelector((state)=>state.theme.darkMode);  // dark modeu merkezi stateden almak için kullanılır
+    const dispatch = useDispatch();// değiştirmek için kullanılır
   return (
     <div>
         <Form.Check

@@ -8,7 +8,7 @@ import { setLang } from "../store/slices/locale-slices";
 export const langs = [
 	{ title: "English", code: "en", country: "gb" },
 	{ title: "Turkish", code: "tr", country: "tr" },
-	{ title: "Franch", code: "fr", country: "fr" },
+	{ title: "French", code: "fr", country: "fr" },
 ];
 // state ulaşmak için
 export const getCurrentLang = () => {

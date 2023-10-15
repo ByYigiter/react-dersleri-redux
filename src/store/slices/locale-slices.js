@@ -1,5 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { langs } from "../../helpers/locale-helper";
 
 export const localSlice = createSlice({
     name:"locale",
