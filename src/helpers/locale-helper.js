@@ -1,4 +1,3 @@
-import { useSelector } from "react-redux";
 import store from "../store";
 import { setLang } from "../store/slices/locale-slices";
 
@@ -9,6 +8,7 @@ export const langs = [
 	{ title: "English", code: "en", country: "gb" },
 	{ title: "Turkish", code: "tr", country: "tr" },
 	{ title: "French", code: "fr", country: "fr" },
+	{ title: "Spanish", code: "es", country: "es" },
 ];
 // state ulaşmak için
 export const getCurrentLang = () => {

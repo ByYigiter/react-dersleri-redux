@@ -9,7 +9,7 @@ import Counter from "./components/counter/Counter";
 // {store} bize setter ve getterları veriyo hepsini merkezi statedeki
 function App() {
   const darkMode = useSelector(state =>state.theme.darkMode);
-  const currentLang = useSelector(state=>state.locale.lang);// Tüm appi re render etmek için yazdık
+  const currentLang = useSelector(state=>state.locale.lang);// Tüm appi re render etmek için yazdık 
   //Aslında burada currentLan g e ihtiyacımız yok 
   // Merkezi state de ki lang değişince useSelector den dolayı App componenti re render olacak
   // useSelector bulunduğu componenti re render eder  y ouzden tüm complaru e re render etmek için appa e ekledik
