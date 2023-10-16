@@ -10,13 +10,13 @@ import { useSelector } from "react-redux";
 const LangSwitcher = () => {
 	// const currentLang = useSelector(state => state.locale.lang)
 	const currentLang = getCurrentLang();
-  console.log(currentLang)
+	console.log(currentLang);
 
 	return (
 		<Dropdown>
 			<Dropdown.Toggle variant="info" id="dropdown-basic">
 				<span className={`fi fi-${currentLang.country}`}></span>
-         {currentLang.title}
+				{currentLang.title}
 			</Dropdown.Toggle>
 
 			<Dropdown.Menu>
